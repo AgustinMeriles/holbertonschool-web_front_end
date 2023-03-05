@@ -140,7 +140,7 @@ a:active {
     text-align: center;
 }
 
-.nav-item {
+.nav .nav-item {
     font-family: var(--nav-item-font-family);
     font-weight: var(--nav-item-font-weight);
     font-size: var(--nav-item-font-size);
@@ -149,11 +149,11 @@ a:active {
     margin: var(--nav-item-margin);
 }
 
-.nav-link {
+.nav .nav-link {
     display: block;
     padding: var(--root-element) var(--root-element) calc(var(--root-element) / 2) var(--root-element);
 }
 
-.nav-link:hover {
+.nav .nav-link:hover {
     text-decoration: var(--nav-item-link-hover);
 }
