@@ -151,9 +151,9 @@ a:active {
 
 .nav .nav-link {
     display: block;
-    padding: var(--root-element) var(--root-element) calc(var(--root-element) / 2) var(--root-element);
+    padding: 0.5rem 1rem;
 }
 
 .nav .nav-link:hover {
-    text-decoration: var(--nav-item-link-hover);
+    color: var(--nav-item-link-hover);
 }
